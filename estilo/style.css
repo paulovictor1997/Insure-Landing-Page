@@ -190,6 +190,7 @@ nav {
   font-size: 20px;
   font-family: "Karla";
   color: #837d87;
+  line-height: 1.5rem;
 }
 
 #area-3 {
@@ -477,6 +478,44 @@ footer #area-4 .content-3 .link-content a:hover {
   }
   footer #area-4 .link-content {
     text-align: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .navbar .menu {
+    width: 420px;
+  }
+  .navbar .menu.show {
+    margin-top: 12%;
+  }
+  #area-1 {
+    height: 910px;
+    width: 520px;
+  }
+  .title-2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar .menu {
+    width: 420px;
+  }
+  .navbar .menu.show {
+    margin-top: 12%;
+  }
+  #area-1 {
+    height: 910px;
+    width: 500px;
+  }
+  #area-2 {
+    width: 500px;
+  }
+  #area-2 .title-2 {
+    text-align: center;
+  }
+  #area-3, footer {
+    width: 500px;
   }
 }
 /*# sourceMappingURL=style.css.map */

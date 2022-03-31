@@ -168,6 +168,7 @@ nav{
                 font-size: 20px;
                 font-family: $Font;
                 color: $Dark-Grayish-Violet;
+                line-height: 1.5rem;
             }
         }
     }
@@ -396,3 +397,52 @@ footer{
     }
 }
 
+@media (max-width:520px){
+    .navbar{
+        
+        .menu{
+            width: 420px;
+            &.show{
+                margin-top: 12%;
+            }
+        }
+    }
+    
+    #area-1{
+        height: 910px;
+        width: 520px;
+    }
+
+    .title-2{
+        text-align: center;
+    }
+}
+
+@media (max-width:450px){
+    .navbar{
+        
+        .menu{
+            width: 420px;
+            &.show{
+                margin-top: 12%;
+            }
+        }
+    }
+    
+    #area-1{
+        height: 910px;
+        width: 500px;
+    }
+
+    #area-2{
+        width: 500px;
+        .title-2{
+            text-align: center;
+        }
+    }
+
+    #area-3, footer{
+        width: 500px;
+    }
+    
+}
