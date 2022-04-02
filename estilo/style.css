@@ -322,6 +322,24 @@ footer #area-4 .content-3 .link-content a:hover {
   text-decoration: underline;
 }
 
+footer .attribution {
+  width: 100%;
+  font-family: "Karla";
+  padding: 5px;
+  text-align: center;
+}
+
+footer .attribution a {
+  text-decoration: none;
+  color: #2d2640;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer .attribution a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 1200px) {
   .navbar .open-button, .navbar .close-button {
     display: block;
